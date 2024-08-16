@@ -30,7 +30,7 @@ void TitleScreen()
 			CAudio_PlaySound( Sounds[SND_LevelEditorSelect], 0);
 			titleSelection--;
 			if (titleSelection < 0)
-				titleSelection = 0;
+				titleSelection = 3;
 		}
 
 		if(gamepad_down() == 1)
@@ -38,7 +38,7 @@ void TitleScreen()
 			CAudio_PlaySound( Sounds[SND_LevelEditorSelect], 0);
 			titleSelection++;
 			if (titleSelection > 3)
-				titleSelection = 3;
+				titleSelection = 0;
 		}
 
 		if(gamepad_button_a() == 1)

@@ -33,7 +33,7 @@ void Options()
 			CAudio_PlaySound( Sounds[SND_LevelEditorSelect], 0);
 			optionSelection--;
 			if (optionSelection < 0)
-				optionSelection = 0;
+				optionSelection = 3;
 		}
 
 		if(gamepad_down() == 1)
@@ -41,7 +41,7 @@ void Options()
 			CAudio_PlaySound( Sounds[SND_LevelEditorSelect], 0);
 			optionSelection++;
 			if (optionSelection > 3)
-				optionSelection = 3;
+				optionSelection = 0;
 		}
 
 		if((optionSelection == 0) && ((gamepad_left() == 1) || (gamepad_right() == 1)))
