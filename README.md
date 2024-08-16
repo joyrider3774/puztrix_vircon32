@@ -10,6 +10,7 @@ Puztrix is a remake of the Gravnic game from inside the NES Puzznic game.
 
 ## Vircon32 Game Features:
 - 80 levels of the original game
+- 2 skins
 - High score saving and submitting for the original levels
 - ability to turn music & sound on/off
 
