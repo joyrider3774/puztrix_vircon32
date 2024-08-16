@@ -1,0 +1,30 @@
+# Puztrix Vircon32 Version
+![DownloadCountTotal](https://img.shields.io/github/downloads/joyrider3774/puztrix_vircon32/total?label=total%20downloads&style=plastic) ![DownloadCountLatest](https://img.shields.io/github/downloads/joyrider3774/puztrix_vircon32/latest/total?style=plastic) ![LatestVersion](https://img.shields.io/github/v/tag/joyrider3774/puztrix_vircon32?label=Latest%20version&style=plastic) ![License](https://img.shields.io/github/license/joyrider3774/puztrix_vircon32?style=plastic)
+
+Puztrix is a remake of the Gravnic game from inside the NES Puzznic game.
+
+## Vircon32 Game Features:
+- 80 levels of the original game
+- High score saving and submitting for the original levels
+- ability to turn music & sound on/off
+
+## Playing the Game:
+In each level there are a number of blocks that needs to be removed from the board. You can do this by moving all blocks in one of the four directions, any same kind of block touching each other will be removed.
+The level is done when all of the blocks are removed. Each level also has a predefined maximum number of amount of moves you can make and you get 5 retries to complete all levels. Once all retries have been used it is Game Over and you'll have to start a new game. 
+
+
+## Controls
+
+| Button | Action |
+| ------ | ------ |
+| Dpad | Select menu's and options. Choose a direction for all blocks to move in game mode |
+| A | Confirm in menu's, give up level in game |
+| B | Back in menus and game (to title screen) |
+
+
+## Credits
+- Puztrix for Vircon32 is created by Willems Davy.
+- 80 original "levels" from Gravnic in Puzznic Nes Game.
+- Graphics made using Gimp
+- Sounds made using SFXR.
+- Music was created by radiance of iris - 1996, Taken from the modarchive.
