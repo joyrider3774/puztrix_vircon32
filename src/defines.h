@@ -1,6 +1,8 @@
 #ifndef DEFINES_H
 #define DEFINES_H
 
+#define DEBUG 0
+
 //original game on playdate was 400x240@30fps
 #define ORIGINAL_FRAMERATE 30.0
 #define ORIGINAL_WIDTH 400

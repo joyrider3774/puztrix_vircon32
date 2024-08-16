@@ -3,6 +3,7 @@
 #include "time.h"
 #include "main.h"
 #include "cworldparts.h"
+#include "debugspeed.h"
 #include "gamefuncs.h"
 #include "stageclear.h"
 #include "levelpackdone.h"
@@ -133,6 +134,17 @@ void main()
 				break;
 			default :
 				break;
+		}
+		if(DEBUG)
+		{
+			int[100] DebugText;
+			int[10] DebugTmpNr;
+			strcpy(DebugText, "MEM USE: ");		
+			itoa(MemoryUsed(), DebugTmpNr, 10);
+			strcat(DebugText, DebugTmpNr);
+			set_multiply_color(make_color_rgb(255,0,255));
+			print_at(0,bios_character_height, DebugText);
+			set_multiply_color(color_white);
 		}
 		end_frame();
 
