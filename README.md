@@ -26,6 +26,7 @@ The level is done when all of the blocks are removed. Each level also has a pred
 | Dpad | Select menu's and options. Choose a direction for all blocks to move in game mode |
 | A | Confirm in menu's, give up level in game |
 | B | Back in menus and game (to title screen) |
+| R | Switch to next skin without going through options |
 
 
 ## Credits
