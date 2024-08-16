@@ -94,9 +94,6 @@ void main()
 	{
 		if(gamepad_button_r() == 1)
 			NextSkin();
-		if(gamepad_button_l() == 1)
-			CWorldParts_IncLevel(WorldParts);
-
 		switch(GameState)
 		{
 			case GSTitleScreenInit:
